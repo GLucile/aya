@@ -1,9 +1,24 @@
-.head-logo {
-  width: 225px;
-  height: 117px;
+.head-illu {
+  position: absolute;
+  max-inline-size: 100%;
 }
 
-.head-characters {
-  width: 801px;
-  height: 581px;
+.head-logo {
+  width: 15%;
+  z-index: 1;
+  top: 70px;
+  left: 10%;
+}
+
+.head-bgd {
+  z-index: -1;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 80.8%, 0 80.8%);
+}
+
+.head-group {
+  width: 80%;
+  z-index: 2;
+  top: 14.5%;
+  left: 10%;
 }
