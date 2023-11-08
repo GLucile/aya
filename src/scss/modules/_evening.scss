@@ -1,19 +1,46 @@
+.evening {
+  position: relative;
+  height: 2014px;
+  width: 105%;
+  margin-top: 350px;
+}
+
+.evening-illu {
+  max-inline-size: 100%;
+  position: absolute;
+}
+
+.evening-bgd {
+  z-index: -1;
+  width: 100%;
+  filter: blur(6px);
+  left: -2%;
+}
+
 .evening-bubble {
-  width: 589px;
-  height: 86px;
+  z-index: 2;
+  top: 20%;
+  left: 8%;
+  width: 40%;
 }
 
 .evening-sunset {
-  width: 955px;
-  height: 388px;
+  z-index: 1;
+  top: 22%;
+  right: 15%;
+  width: 60%;
 }
 
 .evening-bar {
-  width: 832px;
-  height: 377px;
+  z-index: 1;
+  left: 7%;
+  bottom: 27%;
+  width: 60%;
 }
 
 .evening-dancefloor {
-  width: 833px;
-  height: 370px;
+  z-index: 1;
+  bottom: -2%;
+  right: 10%;
+  width: 60%;
 }
