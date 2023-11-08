@@ -1,14 +1,38 @@
-.day-bubble {
-  width: 936px;
-  height: 85px;
+.day {
+  height: 1235px;
+  position: relative;
 }
 
-.day-district {
-  width: 706px;
-  height: 329px;
+.day-illu {
+  max-inline-size: 100%;
+  position: absolute;
+}
+
+.day-bgd {
+  width: 110%;
+  filter: blur(6px);
+}
+
+.day-bubble {
+  width: 65%;
+  left: 19%;
+  top: -5%;
+  z-index: 4;
+}
+
+.day-blackline {
+  width: 110%;
+  top: -0.5%;
 }
 
 .day-house {
-  width: 338px;
-  height: 263px;
+  top: 20%;
+  right: 7%;
+  width: 28%;
+}
+
+.day-district {
+  bottom: 25%;
+  width: 50%;
+  left: 7%;
 }

@@ -1,9 +1,18 @@
+.transition {
+  position: relative;
+  width: 110%;
+}
+
 .trans-day-evening {
-  width: 1440px;
-  height: 463px;
+  width: 110%;
+  position: absolute;
+  top: -100px;
+  left: -5%;
 }
 
 .trans-evening-night {
   width: 1440px;
   height: 472px;
+  max-inline-size: 100%;
+  position: absolute;
 }
