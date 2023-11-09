@@ -1,19 +1,54 @@
+.night {
+  position: relative;
+  height: 2370px;
+  width: 105%;
+  margin-top: 44%;
+}
+
+.night-illu {
+  max-inline-size: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.night-bgd {
+  z-index: -1;
+  width: 100%;
+  filter: blur(6px);
+  left: -2%;
+}
+
 .night-bubble {
-  width: 945px;
-  height: 87px;
+  width: 55%;
+  z-index: 2;
+  top: 8%;
+  left: 20%;
+  right: 5%;
 }
 
 .night-hotel {
-  width: 955px;
-  height: 506px;
+  z-index: 1;
+  left: 20%;
+  top: 10%;
+  width: 55%;
 }
 
 .night-adjoua {
-  width: 467px;
-  height: 356px;
+  top: 40%;
+  left: 8%;
+  width: 35%;
 }
 
 .night-hands {
-  width: 603px;
-  height: 283px;
+  top: 70%;
+  right: 10%;
+  width: 45%;
+}
+
+.night-transition {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 60%);
+  position: absolute;
+  bottom: 0%;
 }

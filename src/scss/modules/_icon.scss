@@ -8,7 +8,7 @@
   width: 50px;
   height: 50px;
   background-color: #fff;
-  border: #000 solid 3px;
+  border: #000000 solid 3px;
   transform: rotate(45deg);
   display: flex;
   margin: auto;
@@ -44,6 +44,10 @@
   }
 }
 
+.icon-losange:hover {
+  cursor: pointer;
+}
+
 .icon-card {
   width: 250px;
   height: 150px;
@@ -61,6 +65,7 @@
   animation-name: opening;
   animation-timing-function: ease-in-out;
   overflow: hidden;
+  cursor: pointer;
 }
 // @keyframes opening {
 //   from {

@@ -10,9 +10,15 @@
   left: -5%;
 }
 
+.transited {
+  position: relative;
+  width: 110%;
+}
+
 .trans-evening-night {
-  width: 1440px;
-  height: 472px;
-  max-inline-size: 100%;
+  width: 110%;
   position: absolute;
+  margin-top: 160px;
+  left: -2%;
+  z-index: 3;
 }
