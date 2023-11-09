@@ -13,7 +13,7 @@
 .head-bgd {
   z-index: -1;
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 80.8%, 0 80.8%);
+  // clip-path: polygon(0 0, 100% 0, 100% 80.8%, 0 80.8%);
 }
 
 .head-group {
@@ -21,4 +21,12 @@
   z-index: 2;
   top: 14.5%;
   left: 10%;
+}
+
+.head-icon {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  right: 6%;
+  z-index: 3;
 }
