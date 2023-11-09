@@ -20,7 +20,7 @@
 
 .carousel-container {
   overflow: hidden;
-  max-width: 1000px; /* Ajuste la largeur maximale selon tes besoins */
+  max-width: 500px; /* Ajuste la largeur maximale selon tes besoins */
   max-height: 500px;
   // background-color: aqua;
 }
@@ -43,24 +43,24 @@
 }
 
 .suspens-telephone {
-  margin: 0 0 0 35%;
+  margin: 0 0 0 22%;
 }
 
 .suspens-aveux {
-  margin: 0 0 0 70%;
+  margin: 0 0 0 38%;
 }
 
 .carousel .suspens-maladie {
-  width: 30%;
-  margin: 0 0 0 71%;
+  width: 65%;
+  margin: 0 0 0 38%;
 }
 
 .suspens-secours {
-  margin: 0 0 0 65%;
+  margin: 0 0 0 30%;
 }
 
 .suspens-sos {
-  margin: 0 0 0 65%;
+  margin: 0 0 0 28%;
 }
 
 .prev-btn,
@@ -77,11 +77,11 @@
 }
 
 .prev-btn {
-  left: 10%; /* Ajuste la position à gauche */
+  left: 20%; /* Ajuste la position à gauche */
 }
 
 .next-btn {
-  right: 10%; /* Ajuste la position à droite */
+  right: 20%; /* Ajuste la position à droite */
 }
 
 .suspens-carousel-caret {
