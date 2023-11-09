@@ -20,7 +20,9 @@
 
 .carousel-container {
   overflow: hidden;
-  max-width: 300px; /* Ajuste la largeur maximale selon tes besoins */
+  max-width: 1000px; /* Ajuste la largeur maximale selon tes besoins */
+  max-height: 500px;
+  // background-color: aqua;
 }
 
 .carousel {
@@ -29,7 +31,7 @@
 }
 
 .carousel img {
-  width: 100%;
+  // width: 100%;
   /* Rend toutes les images partiellement transparentes */
   transition: opacity 0.5s ease-in-out;
   height: auto;
@@ -40,10 +42,31 @@
   opacity: 1; /* Rend l'image active complètement visible */
 }
 
+.suspens-telephone {
+  margin: 0 0 0 35%;
+}
+
+.suspens-aveux {
+  margin: 0 0 0 70%;
+}
+
+.carousel .suspens-maladie {
+  width: 30%;
+  margin: 0 0 0 71%;
+}
+
+.suspens-secours {
+  margin: 0 0 0 65%;
+}
+
+.suspens-sos {
+  margin: 0 0 0 65%;
+}
+
 .prev-btn,
 .next-btn {
   position: absolute;
-  top: 50%;
+  top: 40%;
   font-size: 80px;
   background-color: #000;
   color: #fff;
@@ -54,11 +77,11 @@
 }
 
 .prev-btn {
-  left: 20%; /* Ajuste la position à gauche */
+  left: 10%; /* Ajuste la position à gauche */
 }
 
 .next-btn {
-  right: 20%; /* Ajuste la position à droite */
+  right: 10%; /* Ajuste la position à droite */
 }
 
 .suspens-carousel-caret {
