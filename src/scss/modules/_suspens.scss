@@ -1,0 +1,61 @@
+.suspens {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.suspens-illu {
+  max-inline-size: 100%;
+}
+
+.suspens-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-color: #2e2e2e;
+  position: relative;
+}
+
+.carousel-container {
+  overflow: hidden;
+  max-width: 300px; /* Ajuste la largeur maximale selon tes besoins */
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  width: 100%;
+  /* Rend toutes les images partiellement transparentes */
+  transition: opacity 0.5s ease-in-out;
+  height: auto;
+  object-fit: contain; /* Empêche la compression des images */
+}
+
+.carousel img.active {
+  opacity: 1; /* Rend l'image active complètement visible */
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.prev-btn {
+  left: 20%; /* Ajuste la position à gauche */
+}
+
+.next-btn {
+  right: 20%; /* Ajuste la position à droite */
+}
