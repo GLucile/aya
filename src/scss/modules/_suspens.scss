@@ -2,6 +2,7 @@
   background-color: #000;
   display: flex;
   justify-content: center;
+  padding-bottom: 10%;
 }
 
 .suspens-illu {
@@ -13,7 +14,7 @@
   justify-content: center;
   align-items: center;
   height: 550px;
-  background-color: #2e2e2e;
+  background-color: #000000;
   position: relative;
 }
 
@@ -43,8 +44,8 @@
 .next-btn {
   position: absolute;
   top: 50%;
-  font-size: 24px;
-  background-color: #333;
+  font-size: 80px;
+  background-color: #000;
   color: #fff;
   border: none;
   padding: 10px;
@@ -58,4 +59,8 @@
 
 .next-btn {
   right: 20%; /* Ajuste la position à droite */
+}
+
+.suspens-carousel-caret {
+  fill: #fff;
 }
