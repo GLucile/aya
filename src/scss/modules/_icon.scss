@@ -109,14 +109,16 @@
 .icon-card-evening {
   width: 350px;
   height: 200px;
-  left: 60%;
+  top: 60%;
+  left: 67%;
   right: 5%;
-  top: 0%;
-  animation-name: bintouinfo;
-  animation-timing-function: ease-in-out;
-  overflow: hidden;
+  z-index: 3;
+  // animation-name: bintouinfo;
+  // animation-timing-function: ease-in-out;
+  // overflow: hidden;
+}
 
-/* Icon d'Adjoua */
+/*        Icon d'Adjoua        */
 .night-icon .icon {
   position: absolute;
   z-index: 2;
