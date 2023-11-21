@@ -1,5 +1,3 @@
-// carousel
-
 document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.querySelector(".carousel");
   const prevBtn = document.querySelector(".prev-btn");
