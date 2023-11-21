@@ -1,3 +1,8 @@
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.querySelector(".carousel");
   const prevBtn = document.querySelector(".prev-btn");
