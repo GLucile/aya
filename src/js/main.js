@@ -50,6 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // FIN PARTIE CAROUSEL
 
+// ---- ---- ---- ---- ----
+
 // DEBUT PARTIE SCROLLTRIGGER
 
 // Section Jour/Day
@@ -66,23 +68,23 @@ gsap.to(".day-house", {
 });
 
 gsap.to(".day-district", {
-  y: -50,
+  y: -90,
   opacity: 1,
   ease: "power2.out",
   duration: 1.5,
   scrollTrigger: {
     trigger: ".day-district",
     start: "top bottom",
-    end: "top top",
+    end: "top center",
     scrub: true,
   },
 });
 
 // Section transition-1
 gsap.to(".trans-day-evening", {
-  y: -80,
-  ease: "power2.out",
-  duration: 2,
+  y: -100,
+  ease: "power3.out",
+  duration: 2.5,
   scrollTrigger: {
     trigger: ".trans-day-evening",
     start: "top bottom",
@@ -108,6 +110,16 @@ gsap.to(".evening-sunset", {
     trigger: ".evening-sunset",
     start: "bottom bottom",
     end: "center center",
+    scrub: true,
+  },
+});
+
+gsap.to(".evening-bar", {
+  y: -40,
+  scrollTrigger: {
+    trigger: ".evening-bar",
+    start: "top bottom",
+    end: "bottom bottom",
     scrub: true,
   },
 });
@@ -143,23 +155,33 @@ gsap.to(".night-hotel", {
   },
 });
 
+gsap.to(".night-adjoua", {
+  y: -120,
+  scrollTrigger: {
+    trigger: ".night-adjoua",
+    start: "top bottom",
+    end: "center top",
+    scrub: true,
+  },
+});
+
 gsap.to(".night-hands", {
   y: -80,
   scrollTrigger: {
     trigger: ".night-hands",
     start: "top center",
-    end: "bottom center",
+    end: "center top",
     scrub: true,
   },
 });
 
 // Section suspens
 gsap.to(".suspens-bubble", {
-  y: -90,
+  y: -120,
   scrollTrigger: {
     trigger: ".suspens-bubble",
-    start: "top bottom",
-    end: "bottom top",
+    start: "bottom bottom",
+    end: "top center",
     scrub: true,
   },
 });
