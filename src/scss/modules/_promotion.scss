@@ -8,6 +8,7 @@
 
 .promo-album {
   margin: 0 5% 0 20%;
+  width: 20%;
 }
 
 .promotion h1 {
@@ -27,4 +28,12 @@
 .promo-bouton img {
   margin-top: 4%;
   width: 22%;
+}
+
+.promo-illu {
+  transition: 0.3s ease-in;
+}
+
+.promo-illu:hover {
+  transform: translate(0, -10px);
 }

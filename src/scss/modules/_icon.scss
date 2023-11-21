@@ -7,7 +7,7 @@
 .icon-losange {
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: #ffffffde;
   border: #000000 solid 3px;
   transform: rotate(45deg);
   display: flex;
@@ -76,6 +76,7 @@
 //   }
 // }
 
+/*      icon de AYA        */
 .icon-card-head {
   width: 350px;
   height: 200px;
@@ -96,4 +97,23 @@
     width: 350px;
     opacity: 100%;
   }
+}
+
+/*        Icon de Bintou        */
+.evening-icon .icon {
+  position: absolute;
+  z-index: 2;
+  top: 53%;
+  right: 47%;
+}
+
+.icon-card-evening {
+  width: 350px;
+  height: 200px;
+  left: 60%;
+  right: 5%;
+  top: 0%;
+  animation-name: bintouinfo;
+  animation-timing-function: ease-in-out;
+  overflow: hidden;
 }
