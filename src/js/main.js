@@ -3,6 +3,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+// PARTIE DU CAROUSEL
+
 document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.querySelector(".carousel");
   const prevBtn = document.querySelector(".prev-btn");
@@ -44,4 +46,120 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Initialise la première image comme active
   carousel.children[currentIndex].classList.add("active");
+});
+
+// FIN PARTIE CAROUSEL
+
+// DEBUT PARTIE SCROLLTRIGGER
+
+// Section Jour/Day
+gsap.to(".day-house", {
+  y: -150,
+  opacity: 1,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".day-house",
+    start: "top bottom",
+    end: "top top",
+    scrub: true,
+  },
+});
+
+gsap.to(".day-district", {
+  y: -50,
+  opacity: 1,
+  ease: "power2.out",
+  duration: 1.5,
+  scrollTrigger: {
+    trigger: ".day-district",
+    start: "top bottom",
+    end: "top top",
+    scrub: true,
+  },
+});
+
+// Section transition-1
+gsap.to(".trans-day-evening", {
+  y: -80,
+  ease: "power2.out",
+  duration: 2,
+  scrollTrigger: {
+    trigger: ".trans-day-evening",
+    start: "top bottom",
+    end: "top top",
+    scrub: true,
+  },
+});
+
+// Section Soir/Evening
+gsap.to(".evening-bubble", {
+  y: -100,
+  scrollTrigger: {
+    trigger: ".evening-bubble",
+    start: "bottom bottom",
+    end: "top center",
+    scrub: true,
+  },
+});
+
+gsap.to(".evening-sunset", {
+  y: -90,
+  scrollTrigger: {
+    trigger: ".evening-sunset",
+    start: "bottom bottom",
+    end: "center center",
+    scrub: true,
+  },
+});
+
+gsap.to(".evening-dancefloor", {
+  y: -40,
+  scrollTrigger: {
+    trigger: ".evening-dancefloor",
+    start: "top center",
+    end: "bottom center",
+    scrub: true,
+  },
+});
+
+// Section Nuit/Night
+gsap.to(".night-bubble", {
+  y: 60,
+  scrollTrigger: {
+    trigger: ".night-bubble",
+    start: "bottom center",
+    end: "top top",
+    scrub: true,
+  },
+});
+
+gsap.to(".night-hotel", {
+  y: 60,
+  scrollTrigger: {
+    trigger: ".night-bubble",
+    start: "top bottom",
+    end: "center center",
+    scrub: true,
+  },
+});
+
+gsap.to(".night-hands", {
+  y: -80,
+  scrollTrigger: {
+    trigger: ".night-hands",
+    start: "top center",
+    end: "bottom center",
+    scrub: true,
+  },
+});
+
+// Section suspens
+gsap.to(".suspens-bubble", {
+  y: -90,
+  scrollTrigger: {
+    trigger: ".suspens-bubble",
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+  },
 });
