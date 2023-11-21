@@ -115,4 +115,20 @@
   animation-name: bintouinfo;
   animation-timing-function: ease-in-out;
   overflow: hidden;
+
+/* Icon d'Adjoua */
+.night-icon .icon {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 24%;
+}
+
+.icon-card-night {
+  z-index: 3;
+  width: 350px;
+  height: 200px;
+  top: 45%;
+  left: 35%;
+  right: 5%;
 }
